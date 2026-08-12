@@ -5,7 +5,7 @@
 
 # print("sum is :", sum)
 
-
+'''
 name = "Chinmay Metil"
 
 #String operstions => String operations in Python refer to various tasks performed on strings (such as concatenating, slicing, modifying, and searching lenth).
@@ -24,4 +24,10 @@ print(name.replace("c", "v"))
 
 #Check for presence => konta tr alphabate ahe ki nahi te check karta yet..asel tr TRUE OR FALSE Madhe show karat
 print("X" in name)
-print("M" in name)
+print("M" in name)'''
+
+#Task 
+first=int(input("First Number :"))
+second=int(input("Second Number :"))
+
+print("Sum =" , first + second)

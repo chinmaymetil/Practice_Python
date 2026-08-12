@@ -1,0 +1,14 @@
+# write a program to input side of a squaer and print this area 
+side=float(input("Enter square side :"))
+
+print("Area of squaer =" ,side * side) # ethe side ** 2 he pn logic use karta aal asat.
+
+# write a program to input 2 floating point number and print their avarage =>
+a = float(input("Enter First No : "))
+b = float(input("Enter sec No : "))
+print("avarage =", (a+b)/2)
+'''total = a+b
+print("total =", total)
+# print avg =>
+print("avarage =", total/2)  # short form for this => print("avarage =", (a+b)/2)'''
+
