@@ -1,5 +1,5 @@
 #Membership optr
-# it is use to check the given element in a given squenc[list,tuple,dict,loop]
+# it is use to check the given element in a given sequence[list,tuple,dict,loop]
 
 '''x=[1,2,3,5,6,7,56,34,25]
 print(3 in x)

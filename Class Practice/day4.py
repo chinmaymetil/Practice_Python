@@ -21,7 +21,17 @@ d = 10
 d*=2
 print(d)
 
-#moduls
+#moduls and Assign 
 e=10
 e%=3
 print(e)
+
+# Exponent in Assign
+f=10
+f**=2
+print(f)
+
+# Floor Divison And Assign
+g=113
+g//=4
+print(g)
