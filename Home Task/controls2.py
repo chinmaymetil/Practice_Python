@@ -31,6 +31,7 @@ price=int(input("Enter Ticket Price :"))
 if(age >= 18):
     if(price >500):
         print("Ticket Price is High...")
+
         
 
 #   5

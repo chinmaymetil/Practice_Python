@@ -1,24 +1,5 @@
 # if - elif ladder ==>
-'''a = int(input("Enter 1s Number :"))
-b = int(input("Enter 2nd Number :"))
-optr = input("Choose Opreator = (+, -, *, /, m %, **) :")
-
-if(optr=="+"):
-    print(a+b)
-elif(optr=="-"):
-    print(a-b)
-elif(optr=="*"):
-    print(a*b)
-elif(optr=="/"):
-    print(a/b)
-elif(optr=="%"):
-    print(a%b)
-elif(optr=="**"):
-    print(a**b)
-else:
-    print("Invalid Opreator..")
-
-
+'''
 distance=int(input("Enter Your Distance :"))
 if(distance<=5):
     print("Charges 50rs")
@@ -50,8 +31,10 @@ elif(experience <=3):
 elif(experience <=5):
     print("Mid-Level")
 else:
-    print("Senior...")'''
+    print("Senior...")
 
+    
+    
 print("Color = green/yellow/red")
 signal = input("Enter Signal color :")
 if(signal=="green"):
@@ -61,5 +44,24 @@ elif(signal=="yellow"):
 elif(signal=="red"):
     print("Stop..!")
 else:
-    print("Invalid Signal..")
+    print("Invalid Signal..")'''
 
+
+a = int(input("Enter 1s Number :"))
+b = int(input("Enter 2nd Number :"))
+optr = input("Choose Opreator = (+, -, *, /, m %, **) :")
+
+if(optr=="+"):
+    print(a+b)
+elif(optr=="-"):
+    print(a-b)
+elif(optr=="*"):
+    print(a*b)
+elif(optr=="/"):
+    print(a/b)
+elif(optr=="%"):
+    print(a%b)
+elif(optr=="**"):
+    print(a**b)
+else:
+    print("Invalid Opreator..")
