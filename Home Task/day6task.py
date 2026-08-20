@@ -7,14 +7,13 @@ For the numbers 1 to 10, I need the following:
 4) then Check the sum of the even and odd numbers is even or odd.
 
 even_sum = 0
-odd_sum = 0
-
 print("Even Numbers :")
 for i in range(1,11):
     if(i%2==0):
         print(i)
         even_sum = even_sum + i 
 
+odd_sum = 0
 print("Odd Numbers :")
 for i in range(1,11):
     if(i%2!=0):

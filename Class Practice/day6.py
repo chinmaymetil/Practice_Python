@@ -43,6 +43,23 @@ for j in range(1,11):
     cube=j**3
     print(cube)
 
+print("Even Number Square and Odd Number Cube ==>")
+for i in range(1,11):
+    if(i%2==0):
+        print("even no square is", i**2)
+    else:
+        print("Odd no cube is", i**3)
+
+for i in range(1,11):
+    if(i%2==0):
+        print("even no square is", i**2)
+
+for i in range(1,11):
+    if(i%2!=0):
+        print("Odd no square is", i**3)
+
+
+
 
 
 
