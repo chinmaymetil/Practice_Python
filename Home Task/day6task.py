@@ -28,7 +28,7 @@ print("Even And Odd Numbers sum is :", total)
 if(total%2==0):
     print("Total sum is Even")
 else:
-    print("Total Sum is Odd")'''
+    print("Total Sum is Odd")
 
 
 print("Find Square of 1 to 10")
@@ -56,4 +56,18 @@ for i in range(1,11):
 sum=0
 for i in range(1,11):
     sum=sum+i
-print("1 to 10 number sum is :", sum)
+print("1 to 10 number sum is :", sum)'''
+
+num=int(input("Enter any Number :"))
+while(num>0):
+    cube=num**3
+    print("cube is :",cube)
+    num-=1
+
+num=int(input("Enter any Number :"))
+while(num>0):
+    square=num**2
+    print("cube is :",square)
+    num-=1
+
+
