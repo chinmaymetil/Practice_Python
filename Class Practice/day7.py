@@ -20,16 +20,16 @@ rev=0
 while(num>0):
     rem=num%10  # ethe pratek veli 10 ch ghyaych karan 10 ne proper reminder yeto
     rev=rev*10+rem
-    num=num//10  # flore divison mhanje aaplyala questiont(Bhagakar) float nhi tr int madhe return yeto
+    num=num//10  # flore divison mhanje aaplyala quotient(क्वो-शंट, Bhagakar) float nhi tr int madhe return yeto
 print("Reverse Number is :", rev)
 
 #Palindrome Number  232==232 mhanje palindrome
 num=int(input("Enter any Number :"))
-rev=0
 temp=num
+rev=0
 while(num>0):
-    rem=num%10 
-    rev=rev*10+rem
+    digit=num%10 
+    rev=rev*10+digit
     num=num//10 
 if(temp==rev):
     print("Given Number is Palindrome no :",temp)
