@@ -33,7 +33,9 @@ if(temp==sum):
 else:
     print("this is not armstrong")
 
+    
 
+ # Even and Odd numbers sum 
 num=int(input("Enter the Range :"))
 even_sum=0
 i=1
@@ -59,8 +61,9 @@ print("Even Sum and Odd sum is :", total)
 if(total%2==0):
     print("Sum is even")
 else:
-    print("Sum is odd")'''
+    print("Sum is odd")
 
+    
 
 print("Cube of Number")
 num=int(input("Enter Any Number :"))
@@ -69,6 +72,7 @@ while(num>0):
     print("Cube is :", cube)
     num=num-1
 
+    
 print("Square Of Number ")
 num=int(input("Enter Any Number :"))
 while(num>0):
@@ -87,13 +91,23 @@ while(i<=num):
         print("Oddd Number Cube :", i**3)
     i=i+1
 
-
+# Print 1 to 10 number sum
 sum=0
 i=1
 while(i<=10):
     sum=sum+i
     i=i+1
-print("1 to 10 Numbers sum is :",sum)
+print("1 to 10 Numbers sum is :",sum)'''
+
+
+
+#table ==>
+num=int(input("Enter Any NUmber :"))
+i=1
+while(i<=10):
+    print(num * i)
+    i=i+1
+
       
       
       
