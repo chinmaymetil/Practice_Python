@@ -10,8 +10,6 @@ for i in range(n):
 
 
 # Set ==> in set print only original element without set function 
-num=[1,2,3,2,3,4,4,5,1]
-origi
 
 
 
