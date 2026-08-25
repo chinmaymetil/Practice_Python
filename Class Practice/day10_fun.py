@@ -23,20 +23,18 @@ def addition(x,y):
     return x+y
 print(addition(10,20))'''
 
-
+# Required Arguments
 def display(name):
-    print("My name is :", name)
+    print("My name is :" +name)
 display("Chinmay")
 
-
 #keyword Argument
-
 def hello(name,age,city):
     print(name,age,city)
 
 hello("chinmay",20,"kolhpur")
 
-
+# defualt Argument 
 def info(name,age,city="Pune"):
     print(name,age,city)
 info("Chinmay",22)
