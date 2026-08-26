@@ -12,6 +12,7 @@
     else:
         print(temp, "is Not palindrome number")
 
+        
 palindrome()
 
 
