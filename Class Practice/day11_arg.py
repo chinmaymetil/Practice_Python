@@ -38,6 +38,6 @@ def f1():
 f1()
 
 def f2():
-    print(a)
+    print(a) 
     print(b)
 f2()
