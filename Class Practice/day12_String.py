@@ -52,6 +52,7 @@ print("count is:",count)
 
 index and find and are index are find
 
+
 s=krishn
 and i want output k|r|i|s|n
 
