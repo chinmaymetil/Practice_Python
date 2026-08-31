@@ -1,4 +1,1 @@
-hii everyone 
- we are learning file I/O 
-using Python. 
- I like Programing in Python.
+12,23,43,22,12,53,55,34
