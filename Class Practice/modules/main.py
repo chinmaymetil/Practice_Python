@@ -13,7 +13,7 @@ a=int(input("Enter 1st Number :"))
 b=int(input("Enter 2nd Number :"))
 print("Addition =",addition(a,b))
 #       OR
-# ithe tya module madhale sagle function yetil * mule
+# ithe tya module madhale sagle function access karta yetil * mule
 from calculation import*  
 a=int(input("Enter 1st Number :"))
 b=int(input("Enter 2nd Number :"))
