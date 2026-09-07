@@ -17,7 +17,7 @@ except IOError:
 
 finally:
 
-    print("file operations attemped")'''
+    print("file operations attemped")
 
 
 # jar apan zero ne multiply karayala gelo tr error yete mhanun ha code  
@@ -46,10 +46,41 @@ except ZeroDivisionError:
     print(10/2)
 print("Python")
 
+
+
+try:
+    x=int(input("Enter 1st Number :"))
+    y=int(input("Enter 2nd Number :"))
+    print(x/y)
+except ZeroDivisionError:
+    print("Cant Divide with zero")
+except ValueError:
+    print("Please provide int value only")
  
 
+# Parant Error And child Error
+try:
+    x=int(input("Enter 1st Number :"))
+    y=int(input("Enter 2nd Number :"))
+    print(x/y)
+except ArithmeticError:
+    print("Arithmetic Error")
+except ZeroDivisionError:
+    print("Zero Divison Error")
+'''
 
-
-
-
+# nested Try-Except 
+try:
+    print("Outer Try block")
+    try:
+       print("Inner Try Block")
+       print(10/0)
+    except ZeroDivisionError:
+        print("Inner Except Block")
+    finally:
+        print("Inner Finally Block")
+except:
+    print("Outer except Block")
+finally:
+    print("outer Finally Block")
 
