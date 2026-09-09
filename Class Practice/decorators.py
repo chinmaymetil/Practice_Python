@@ -43,17 +43,17 @@ wish("sunny") # decorator wont be executed
 decorfunction("Durga") # decorator will be executed
 decorfunction("sunny") # decorator wil be executed'''
 
+# decor la call karun 3rd number ghyaycha
 def decor(func):
-    def num3():
+    def num3(a,b):
         c=int(input("Enter 3rd Number :"))
-        func(c)
+        func(a,b,c)
     return num3
 @decor
-def add(c):
-    a=int(input("Enter 1st Number :"))
-    b=int(input("Enter 2nd Number :"))
-   # c=int(input("Enter 3rd Number :"))
-    print("Addition is :",a+b+c)
-add()
-x
+def add(a,b,c):
+    print("Addition is :", a+b+c)
+
+a=int(input("Enter 1st Number :"))
+b=int(input("Enter 2nd Number :"))
+add(a,b)
 
