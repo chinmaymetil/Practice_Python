@@ -30,8 +30,8 @@ def countdown(num):
     print("Start Count Down")
     while(num>0):
         yield num
-        num=num-1 
+        num=num-1  
 
 values=countdown(5)
-for x in values:
-    print(x) 
+for x in values: 
+    print(x)  
